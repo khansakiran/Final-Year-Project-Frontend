@@ -600,7 +600,7 @@ function Dashboard() {
             </Box>
             <Box>
               <p style={{ color: "#2be2c0", marginBottom: 7, fontSize: 18 }}>
-                Responses
+                Response
               </p>
             </Box>
             <Box sx={{ marginBottom: 3 }}>

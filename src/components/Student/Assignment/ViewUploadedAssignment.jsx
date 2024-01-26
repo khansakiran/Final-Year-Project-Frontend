@@ -169,7 +169,7 @@ const formattedTime = formatTimeToAMPM(time.getHours(), time.getMinutes());
       
       </Box>
      {
-      isAlreadySubmitted &&  PastDueDate &&
+      isAlreadySubmitted &&
       <Box sx={{
           marginRight:'7%',display:'flex',
           flexDirection:'row',

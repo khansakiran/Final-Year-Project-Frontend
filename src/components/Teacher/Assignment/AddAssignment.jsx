@@ -111,9 +111,9 @@ const AddAssignment = () => {
     if (values.questions === "" || values.questions <= 0) {
       alert("Please enter a valid number of questions");
     }
-  else if(values.dueDate.$d < new Date())  {
-    alert("Due Date cannot be lesser than upload date")
-  }
+  // else if(values.dueDate.$d < new Date())  {
+  //   alert("Due Date cannot be lesser than upload date")
+  // }
     else {
       if (!showAddQuestion) {
         setAssignment(
@@ -156,10 +156,10 @@ const AddAssignment = () => {
 
 
   const handleUpdate = async () => {
- if(values.dueDate.$d < new Date())  {
-    alert("Due Date cannot be lesser than upload date")
-  }
-    else if( values.description != '' && values.format != null) {
+//  if(values.dueDate.$d < new Date())  {
+//     alert("Due Date cannot be lesser than upload date")
+//   }
+     if( values.description != '' && values.format != null) {
       await updateAssig(id, values.description, values.dueDate,values.dueTime, values.format)
     }
     else{

@@ -172,8 +172,8 @@ function Homepage() {
               sx={{ color: newtheme.palette.secondary.footer, marginRight: 7 ,fontFamily: 'Nunito, sans-serif',fontWeight:'bolder' }}
             />
             <Tab
-              icon={<BsBootstrapReboot fontSize={25} />}
-              label="A Language"
+              icon={<SiAssemblyscript fontSize={25} />}
+              label="Nasm"
               sx={{ color: newtheme.palette.secondary.footer, marginRight: 7 ,fontFamily: 'Nunito, sans-serif',fontWeight:'bolder' }}
             />
             <Tab
